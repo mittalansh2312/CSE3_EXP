@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./response.html" method="get">
+          <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="other" required>
+            <label for="other">Other</label>
+            <br><br>
+            <label for ="hobbies">Hobbies:</label>
+            <input type="checkbox" name="check1" id="Cricket" value="cricket">
+            <label for="Cricket">Cricket</label>
+            <input type="checkbox" name="check2" id="reading" value="reading">
+            <label for="reading">Reading</label>
+            <br><br>
+            <label for="languages">Programming Languages:</label>
+            <select name="languages" id="languages" required>
+                <option value="">Select your language</option>
+                <option value="c">C</option>
+                <option value="c++">C++</option>
+                <option value="python">Python</option>
+            </select>
+            
+            <br><br>
+                <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob" required>
+            <br><br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="Enter your age" required>
+            <br><br>
+            <label for="url">Website URL:</label>
+            <input type="url" name="url" id="url" placeholder="Enter your home page URL" required>
+            <br><br>
+            <label for="file">Upload your resume File:</label>
+            <input type="file" name="file" id="file" required>
+            <br><br>
+            <input type="submit" value="Submit">
+            <br><br>
+            <input type="reset" value="Reset">
+        </form>
+    </fieldset>
+</body>
+</html>
